@@ -12,3 +12,23 @@ Or any Linux environment with Docker
 4. Docker push <your handle>/yatfish
 5. Docker-compose up 
 6. In Docker Desktop Volumes - yatfish Volume - Data - Save As to retrieve analysis
+
+## Batfish Questions asked per configuration
+
+bf.q.nodeProperties()
+
+bf.q.interfaceProperties()
+
+bf.q.undefinedReferences()
+
+bf.q.unusedStructures()
+
+bf.q.hsrpProperties()
+
+bf.q.ospfProcessConfiguration()
+
+bf.q.ospfInterfaceConfiguration()
+
+bf.q.ospfAreaConfiguration()
+
+bf.q.switchedVlanProperties()
