@@ -1,0 +1,22 @@
+version: '3'
+ 
+services:
+  yatfish:
+    image: johncapobianco/yatfish:yatfish
+    build: 
+      context: ./
+      dockerfile: ./docker/Dockerfile
+    depends_on:
+      - batfish
+    volumes:
+      - yatfish:/yatfish/output
+  batfish:
+    container_name: batfish
+    image: batfish/batfish:latest
+    ports:
+      - 8888:8888
+      - 9997:9997
+      - 9996:9996
+
+volumes:
+  yatfish:
