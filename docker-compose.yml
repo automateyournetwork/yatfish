@@ -1,15 +1,16 @@
 version: '3'
- 
+
 services:
   yatfish:
     image: johncapobianco/yatfish:yatfish
-    build: 
+    build:
       context: ./
       dockerfile: ./docker/Dockerfile
     depends_on:
       - batfish
     volumes:
-      - yatfish:/yatfish/output
+      - ./yatfish/output:/yatfish/output
+      - ./yatfish/snapshot/configs:/yatfish/snapshot/configs
   batfish:
     container_name: batfish
     image: batfish/batfish:latest
