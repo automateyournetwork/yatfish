@@ -1,10 +1,9 @@
 ---
-
 devices:
     dist-rtr01:
-        alias: 'dist-rtr01'
-        type: 'router'
-        os: 'iosxe'
+        alias: "dist-rtr01"
+        type: "router"
+        os: "iosxe"
         platform: isr
         credentials:
             default:
@@ -18,9 +17,9 @@ devices:
                 arguments:
                     connection_timeout: 360
     dist-rtr02:
-        alias: 'dist-rtr02'
-        type: 'router'
-        os: 'iosxe'
+        alias: "dist-rtr02"
+        type: "router"
+        os: "iosxe"
         platform: isr
         credentials:
             default:
@@ -34,9 +33,9 @@ devices:
                 arguments:
                     connection_timeout: 360
     dist-sw01:
-        alias: 'dist-sw01'
-        type: 'switch'
-        os: 'nxos'
+        alias: "dist-sw01"
+        type: "switch"
+        os: "nxos"
         platform: n9kv
         credentials:
             default:
@@ -49,19 +48,3 @@ devices:
                 port: 22
                 arguments:
                     connection_timeout: 360
-    # dist-sw02:
-    #     alias: 'dist-sw02'
-    #     type: 'switch'
-    #     os: 'nxos'
-    #     platform: n9kv
-    #     credentials:
-    #         default:
-    #             username: cisco
-    #             password: cisco
-    #     connections:
-    #         cli:
-    #             protocol: ssh
-    #             ip: 10.10.20.178
-    #             port: 22
-    #             arguments:
-    #                 connection_timeout: 360
