@@ -16,22 +16,6 @@ devices:
                 port: 22
                 arguments:
                     connection_timeout: 360
-    dist-rtr02:
-        alias: "dist-rtr02"
-        type: "router"
-        os: "iosxe"
-        platform: isr
-        credentials:
-            default:
-                username: cisco
-                password: cisco
-        connections:
-            cli:
-                protocol: ssh
-                ip: 10.10.20.176
-                port: 22
-                arguments:
-                    connection_timeout: 360
     dist-sw01:
         alias: "dist-sw01"
         type: "switch"

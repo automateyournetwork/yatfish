@@ -19,6 +19,10 @@ bf.q.nodeProperties()
 
 bf.q.interfaceProperties()
 
+bf.q.bgpProcessConfiguration()
+
+bf.q.bgpPeerConfiguration()
+
 bf.q.undefinedReferences()
 
 bf.q.unusedStructures()
@@ -32,3 +36,13 @@ bf.q.ospfInterfaceConfiguration()
 bf.q.ospfAreaConfiguration()
 
 bf.q.switchedVlanProperties()
+
+bf.q.mlagProperties()
+
+bf.q.namedStructures()
+
+bf.q.definedStructures()
+
+bf.q.referencedStructures()
+
+bf.q.vrrpProperties()
