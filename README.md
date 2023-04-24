@@ -13,6 +13,12 @@ Or any Linux environment with Docker
 5. Docker-compose up 
 6. In Docker Desktop Volumes - yatfish Volume - Data - Save As to retrieve analysis
 
+If you need to run this 'hands-off' and make zero touch es to your devices you can adjust the testbed.connect() command as follows:
+
+testbed.connect(init_exec_commands=[],
+               init_config_commands=[],
+               log_stdout=False)
+
 ## Batfish Questions asked per configuration
 
 bf.q.nodeProperties()
