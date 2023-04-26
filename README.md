@@ -8,9 +8,9 @@ Or any Linux environment with Docker
 ## Steps
 1. Clone the repository 
 2. Update the testbed.yaml to reflect your topology and devices
-3. Docker build -t <your docker handle >/yatfish -f docker/Dockerfile . --no-cache
-4. Docker push <your handle>/yatfish
-5. Docker-compose up 
+3. docker build -t <your docker handle >/yatfish -f docker/Dockerfile . --no-cache
+4. docker push <your handle>/yatfish
+5. docker-compose up 
 6. In Docker Desktop Volumes - yatfish Volume - Data - Save As to retrieve analysis
 
 If you need to run this 'hands-off' and make zero touch es to your devices you can adjust the testbed.connect() command as follows:
