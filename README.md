@@ -1,6 +1,10 @@
 # yatfish
 Combining Cisco pyATS and Batfish for automated network running configuration analysis
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/automateyournetwork/yatfish)
+
+[![Run in Cisco Cloud IDE](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-runable-icon.svg)](https://developer.cisco.com/devenv/?id=devenv-vscode-base&GITHUB_SOURCE_REPO=https://github.com/automateyournetwork/yatfish)
+
 # Requirements
 WSL2 Ubuntu and Docker Desktop for Windows
 Or any Linux environment with Docker
